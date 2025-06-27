@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BookingSuite" verbose="1" >
+    <test name="BookingTests">
+        
+        <classes>
+           
+            <class name="tests.TokenTest"/>
+            <class name="tests.testCreateBooking"/>
+            <class name="tests.TestUpdatedBooking"></class>
+            <class name="tests.TestDelete"></class>
+          
+            <class name="tests.TestUpdatedBooking"/>
+        </classes>
+    </test>
+</suite>
